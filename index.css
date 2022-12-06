@@ -1,3 +1,20 @@
+#hero-container{
+    background-image: url('media/armenia_aragats_hayk-wallpaper-3840x2400-1024x640.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#hero-mainrow{
+    max-height: 90%;
+    margin-top: 5%;
+    margin-bottom: auto;
+}
+
+#hero-nav-row{
+    max-height: 10%;
+}
+
 #hero-img {
     max-height: 50%;
     margin-top: auto;
@@ -12,19 +29,40 @@
    
 }
 
-#hero-text{
+#hero-text-area{
     max-width: 50%;
     max-height: 50%;
     margin: auto;
 }
 
-#hero-text h1{
+#hero-text-name h1{
     overflow: hidden;
-    border-right: .15em solid red;
+    border-right: .05em solid orange;
     margin: 0 auto;
     white-space: nowrap;
     animation: 
-        typing 3.5s steps(30, end),
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+
+}
+
+#hero-text-job h1{
+    overflow: hidden;
+    border-right: .05em solid orange;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+#hero-text-location h1{
+    overflow: hidden;
+    border-right: .05em solid orange;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: 
+        typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
 
 }
@@ -38,3 +76,14 @@
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
+
+#main-menu {
+    position:fixed;
+    left:0;
+    top:0;
+    
+}
+
+#main-menu ul{
+    
+}
