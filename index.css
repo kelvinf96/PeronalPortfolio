@@ -1,0 +1,40 @@
+#hero-img {
+    max-height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+#hero-img img{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+   
+}
+
+#hero-text{
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+}
+
+#hero-text h1{
+    overflow: hidden;
+    border-right: .15em solid red;
+    margin: 0 auto;
+    white-space: nowrap;
+    animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .75s step-end infinite;
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
