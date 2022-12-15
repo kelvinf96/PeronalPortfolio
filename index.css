@@ -1,9 +1,47 @@
 #hero-container{
-    background-image: url('media/armenia_aragats_hayk-wallpaper-3840x2400-1024x640.jpeg');
+    background-image: url('media/orange-grey-abstract.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.open-side{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-side{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#hero-section-col{
+    transition: margin-left .5s;
+    padding: 16px;
+}
 
 #hero-mainrow{
     max-height: 90%;
@@ -36,6 +74,7 @@
 }
 
 #hero-text-name h1{
+    font-family: 'Staatliches', cursive;
     overflow: hidden;
     border-right: .05em solid orange;
     margin: 0 auto;
@@ -47,6 +86,7 @@
 }
 
 #hero-text-job h1{
+    font-family: 'Staatliches', cursive;
     overflow: hidden;
     border-right: .05em solid orange;
     margin: 0 auto;
@@ -57,6 +97,7 @@
 }
 
 #hero-text-location h1{
+    font-family: 'Staatliches', cursive;
     overflow: hidden;
     border-right: .05em solid orange;
     margin: 0 auto;
@@ -77,13 +118,54 @@
     50% { border-color: orange; }
   }
 
-#main-menu {
-    position:fixed;
-    left:0;
-    top:0;
-    
+.about-section{
+    border: 2px solid #a7a6a6;
+    border-radius: 2%;
+    background: rgb(237, 237, 237);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#main-menu ul{
-    
+#about-me-heading{
+    color: #E06900;
+    font-size: 600%;
+    font-weight: bolder;
+    font-family: 'Aleo', serif;
+}
+
+.about-me-text{
+    color: #515050;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#skills-heading{
+    color: #E06900;
+    font-size: 600%;
+    font-weight: bolder;
+    font-family: 'Aleo', serif;
+}
+
+#tech-skills{
+    display: none;
+}
+
+.skill-1{
+    font-size: 700%;
+    font-weight: bolder;
+}
+
+.skill-2{
+    font-size: 500%;
+}
+
+.skill-3{
+    font-size: 300%;
+}
+
+#education-heading{
+    color: #E06900;
+    font-size: 600%;
+    font-weight: bolder;
+    font-family: 'Aleo', serif;
 }
